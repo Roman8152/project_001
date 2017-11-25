@@ -23,4 +23,12 @@ table {
     background-color: greenyellow;
 }
 
-/* some td padding */
+button {
+    margin-right: 100px;
+}
+/*
+#tableColumn {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+*/

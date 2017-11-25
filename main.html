@@ -18,31 +18,28 @@
         <h1>Turn Based Combat Game</h1>
         <table>
             <tr>
-                <th>Health</th>
-                <th>Health</th>
+                <th>Health:</th>
+                <th>Health:</th>
             </tr>
             <tr>
-                <td id="idk">
-                    <div class="myProgress">
-                        <div class="myBar"></div>
-                    </div>
+                <td>
+                    <h3 id="hp1">100</h3>
                 </td>
-                <td id = "idk">
-                    <div class="myProgress">
-                        <div class="myBar"></div>
-                    </div>
+                <td>
+                    <h3 id="hp2">100</h3>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="plrAction" id="plr1atk" type="button">Attack</button>    
-                    <button class="plrAction" id="plr1def" type="button">Defense</button>
+                    <button class="plrAction" id="plr1atk" type="button" onclick="Fighter1.attack()">Attack</button>
+                    <button class="plrAction" id="plr1heal" type="button" onclick="Fighter1.heal()">Heal</button>
                 </td>
                 <td>
-                    <button class="plrAction" id="plr2atk" type="button">Attack</button>   
-                    <button class="plrAction" id="plr2def" type="button">Defense</button>
+                    <button class="plrAction" id="plr2atk" type="button" onclick="Fighter2.attack()">Attack</button>
+                    <button class="plrAction" id="plr2heal" type="button" onclick="Fighter2.heal()">Heal</button>
                 </td>
             </tr>
         </table>
-    </body>   
+        <p id="lol"></p>
+    </body>
 </html>
