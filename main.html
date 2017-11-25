@@ -2,19 +2,10 @@
 
 <html>
     <head>
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>-->
         <script src ="code.js"></script>
         <link rel = "stylesheet" type = "text/css" href = "edit.css"></link>
     </head>
     <body>
-        <!--<div id = "hp1">
-            <h3>Health</h3>
-            <progress id="health" value = "100" max = "100"></progress>
-        </div>
-        <div id = "hp2">
-            <h3>Health</h3>
-            <progress id="health2" value = "100" max = "100"></progress>
-        </div>-->
         <h1>Turn Based Combat Game</h1>
         <table>
             <tr>
@@ -32,11 +23,11 @@
             <tr>
                 <td>
                     <button class="plrAction1" id="plr1atk" type="button" onclick="Fighter1.attack()">Attack</button>
-                    <button class="plrAction1" id="plr1heal" type="button" onclick="Fighter1.heal()">Heal</button>
+                    <button class="plrAction1" id="plr1heal" type="button" onclick="Fighter1.heal()" disabled>Heal</button>
                 </td>
                 <td>
-                    <button class="plrAction2" id="plr2atk" type="button" onclick="Fighter2.attack()">Attack</button>
-                    <button class="plrAction2" id="plr2heal" type="button" onclick="Fighter2.heal()">Heal</button>
+                    <button class="plrAction2" id="plr2atk" type="button" onclick="Fighter2.attack()" disabled>Attack</button>
+                    <button class="plrAction2" id="plr2heal" type="button" onclick="Fighter2.heal()" disabled>Heal</button>
                 </td>
             </tr>
         </table>
