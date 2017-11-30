@@ -1,0 +1,68 @@
+h1 {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+/*
+.plrAction1 {
+    margin-left: 100px;
+}
+
+.plrAction2 {
+    margin-left: 100px;
+}
+*/
+#play {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+    cursor: pointer;
+}
+
+button:disabled {
+    background: gray;
+    cursor: default;
+}
+
+#reset {
+    text-align: center;
+    margin: 100px;
+}
+
+.health {
+    padding-left: 365px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#leftPic {
+    margin-left: 100px;
+}
+
+#rightPic {
+    margin-left: 100px;
+}
+#img1 {
+    padding-left: 300px;
+}
+
+#img2 {
+    padding-left: 250px;
+}
