@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="newcss.css">
     </head>
-    <body class="class1">
+    <body>
         <img src="nazev.png" id="obrazek1">
         <div class="container text-center">
             <div class="card text-center">
@@ -20,37 +20,16 @@
                             <a class="nav-link" href="serials.html">Seriály</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link active" href="actors.html">Herci</a>
+                                <a class="nav-link" href="actors.html">Herci</a>
                         </li>
                         <li class="nav-item">
                                 <a class="nav-link" href="finder.html">Vyhledávač</a>
                         </li>
                 </ul>
-               </div>
-               <table>
-                   <tr id="id5">
-                       <td>
-                           <p>
-                               Filtres: javascript programing for Roman :D
-                           </p>
-                       </td>
-                   </tr>
-               </table>
-        <a href="nejaky.html">
-        <div class="card" id="id4">
-                <img class="card-img-top" src="masle.jpg" id="id3">
-                <div class="card-body">
-                        <p class="card-text">Nějaký Buzer</p>
-                </div>
-        </div>
-        </a>
+               <p>FUNGUJE TO BRO!!!!!!</p>
 
+    </div>
         </div>
-</div>
-            
-                
-            </div>
-            
-        
+    </div>
     </body>
 </html>

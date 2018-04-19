@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="newcss.css">
     </head>
-    <body class="class1">
+    <body>
         <img src="nazev.png" id="obrazek1">
         <div class="container text-center">
             <div class="card text-center">
@@ -17,13 +17,13 @@
                                 <a class="nav-link" href="news.html">Novinky</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="serials.html">Seriály</a>
+                            <a class="nav-link active" href="serials.html">Seriály</a>
                         </li>
                         <li class="nav-item">
                                 <a class="nav-link" href="actors.html">Herci</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link active" href="finder.html">Vyhledávač</a>
+                                <a class="nav-link" href="finder.html">Vyhledávač</a>
                         </li>
                 </ul>
                <p>Zavolat neco k djlfjaj</p>
@@ -36,3 +36,4 @@
         
     </body>
 </html>
+
