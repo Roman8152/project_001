@@ -11,30 +11,34 @@
         <img src="nazev.png" id="obrazek1">
         <div class="container text-center">
             <div class="card text-center">
-        <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                                <a class="nav-link" href="news.html">Novinky</a>
+                            <a class="nav-link" href="news.php">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="serials.html">Seriály</a>
+                            <a class="nav-link" href="tv_shows.php">TV Shows</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link active" href="actors.html">Herci</a>
+                            <a class="nav-link active" href="actors.php">Actors</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="finder.html">Vyhledávač</a>
+                            <a class="nav-link" href="search.php">Search</a>
                         </li>
-                </ul>
-                <br>
-               <img src="masle.jpg" id="id6">
-               <h3>Ondra v budoucnzu</h3>
-               <p class="class2">Narození:</p><br>
-               <p class="class2">Věk:</p><br>
-               <p class="class2">Filmy:</p><br>
-               <p class="class2">Seriály:</p><br>
+                    </ul>
+                    <br>
+                    <img src="masle.jpg" id="id6">
+                    <h3>Ondra v budoucnzu</h3>
+                    <p class="class2">Narození:</p>
+                    <br>
+                    <p class="class2">Věk:</p>
+                    <br>
+                    <p class="class2">Filmy:</p>
+                    <br>
+                    <p class="class2">Seriály:</p>
+                    <br>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
     </body>
 </html>

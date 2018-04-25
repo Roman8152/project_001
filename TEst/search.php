@@ -11,29 +11,24 @@
         <img src="nazev.png" id="obrazek1">
         <div class="container text-center">
             <div class="card text-center">
-        <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                                <a class="nav-link" href="news.html">Novinky</a>
+                            <a class="nav-link" href="news.php">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="serials.html">Seriály</a>
+                            <a class="nav-link" href="tv_shows.php">TV Shows</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="actors.html">Herci</a>
+                            <a class="nav-link" href="actors.php">Actors</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="finder.html">Vyhledávač</a>
+                            <a class="nav-link active" href="search.php">Search</a>
                         </li>
-                </ul>
-               <p>Zavolat neco k djlfjaj</p>
-        </div>
-</div>
-            
-                
+                    </ul>
+                    <p>Zavolat neco k djlfjaj</p>
+                </div>
             </div>
-            
-        
+        </div>
     </body>
 </html>
-

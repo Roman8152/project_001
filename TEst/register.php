@@ -5,8 +5,8 @@ include_once "dtbs.php";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $username = trim(mysqli_real_escape_string($conn, $_POST["username"]));
     $email = trim(mysqli_real_escape_string($conn, $_POST["email"]));
-    $pwd = mysqli_real_escape_string($conn, $_POST["pass"]));
-    $pwd2 = mysqli_real_escape_string($conn, $_POST["passConfirm"]));
+    $pwd = mysqli_real_escape_string($conn, $_POST["pass"]);
+    $pwd2 = mysqli_real_escape_string($conn, $_POST["passConfirm"]);
 
     $sql = "SELECT username, email FROM users";
     $result = mysqli_query($conn, $sql);
@@ -20,16 +20,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
         elseif ($email !== $row["email"]) {
 
-            if ($uid == $row["username"]) {
+            if ($username == $row["username"]) {
                 echo "This username is already taken";
             }
-            elseif ($uid !== $row["username"]) {
+            elseif ($username !== $row["username"]) {
 
                 if ($pwd == $pwd2) {
                     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
                     $sql = "INSERT INTO users (username, email, pass)
                     VALUES ('$username', '$email', '$hashedPwd');";
                     mysqli_query($conn, $sql);
+                    header("location: welcome.php");
                 }
                 else {
                     echo "Passwords don't match";

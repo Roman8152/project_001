@@ -14,16 +14,16 @@
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
-                            <a class="nav-link" href="news.html">Novinky</a>
+                            <a class="nav-link" href="news.php">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="serials.html">Seriály</a>
+                            <a class="nav-link active" href="tv_shows.php">TV Shows</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="actors.html">Herci</a>
+                            <a class="nav-link" href="actors.php">Actors</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="finder.html">Vyhledávač</a>
+                            <a class="nav-link" href="search.php">Search</a>
                         </li>
                     </ul>
                     <p>Zavolat neco k djlfjaj</p>
@@ -32,3 +32,4 @@
         </div>
     </body>
 </html>
+
